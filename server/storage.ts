@@ -99,7 +99,7 @@ export class MemStorage implements IStorage {
       id,
       ...record,
       dateCreated: now,
-      dateModified: now
+      dateModified: now 
     };
     
     this.records.set(id, newRecord);
